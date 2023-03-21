@@ -15,5 +15,3 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
     return arr;
   });
 }
-
-console.log(handleProfileSignup('john', 'stockton', 'js.jpeg'));
