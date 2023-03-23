@@ -3,3 +3,4 @@ node_modules
 babel.config.js
 package.json
 package-lock.json
+tests/
