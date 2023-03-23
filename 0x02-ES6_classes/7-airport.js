@@ -9,8 +9,9 @@ class Airport {
     this._name = name;
     this._code = code;
   }
+
+  get [Symbol.toStringTag]() {
+    return `${this._code}`;
+  }
 }
-Airport.prototype.toString = function airportToString() {
-  return `[${typeof this} ${this._code}]`;
-};
 export default Airport;
